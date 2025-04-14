@@ -34,6 +34,9 @@ jobs:
       - name: Run Jest tests with coverage
         run: npm test -- --ci --coverage --watchAll=false
 
+      - name: Check coverage directory contents
+        run: ls -R coverage
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
