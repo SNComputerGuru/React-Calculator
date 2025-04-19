@@ -1,6 +1,6 @@
 // src/calculator.test.js
 
-const { add, subtract , multiply} = require('./calculator');
+const { add, subtract , multiply, divide} = require('./calculator');
 
 test('adds two numbers', () => {
   expect(add(3, 4)).toBe(7);
@@ -18,4 +18,10 @@ test('multiplies two numbers', () => {
   expect(multiply(10, 4)).toBe(40);
   expect(multiply(3, 7)).toBe(21);
   expect(multiply(0, 0)).toBe(0);
+});
+
+test('divides two numbers', () => {
+  expect(divide(10, 5)).toBe(2);
+  expect(divide(15, 3)).toBe(5);
+  expect(divide(10, 10)).toBe(1);
 });
