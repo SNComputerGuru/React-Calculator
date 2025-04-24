@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/SNComputerGuru/React-Calculator/graph/badge.svg?token=7D0FL06960)](https://codecov.io/gh/SNComputerGuru/React-Calculator)
 # 🧮 React Calculator
 
 A simple and functional calculator built with **React**. Includes unit testing with **Jest** and code coverage analysis via **Codecov**.
