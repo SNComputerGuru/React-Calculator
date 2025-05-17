@@ -4,6 +4,7 @@
 A simple and functional calculator built with **React**. Includes unit testing with **Jest** and code coverage analysis via **Codecov**.
 
 ---
+Something
 
 ## 🚀 Features
 
